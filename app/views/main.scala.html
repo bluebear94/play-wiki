@@ -1,9 +1,9 @@
 @(title: String)(content: Html)
-@import play.api.mvc._
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>@title - Play-Wiki</title>
+    <title>@title</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
@@ -12,8 +12,8 @@
   </head>
   <body>    
     <div class="container">
-      <h1><a href="/">Play-Wiki</a></h1>
-      <h2>@title</h2>
+      <h1>@title</h1>
+    
       @content
     </div>
   </body>
